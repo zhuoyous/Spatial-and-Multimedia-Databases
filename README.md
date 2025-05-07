@@ -1,64 +1,70 @@
 # Spatial-and-Multimedia-Databases
 
 
-This repository contains five homework assignments completed for the CSCI585 course at USC. The assignments cover a range of spatial and multimedia database topics, including spatial SQL queries, GIS data handling, KML visualization, and deep learning for multimedia recognition.
+This repository contains five homework assignments from the CSCI585 course at USC. Topics span ER modeling, spatial SQL queries, GIS data handling, KML/shapefile processing, and multimedia data recognition using deep learning.
 
 ---
 
 ## 📁 Folder Overview
 
-### `hw1/` — **Intro to Spatial Concepts**
-- `HW1.png`: Diagram or output related to basic spatial concepts.
-- `README.txt`: Overview of the task.
-
-> **Focus:** Foundational spatial reasoning or coordinate plotting.
+### `hw1/` — **Entity-Relationship Design (ERD)**
+- `HW1.png`: Visual representation of an Entity-Relationship Diagram.
+- `README.txt`: Extensive documentation describing 19 entities, their attributes, primary and foreign keys, and relationships (1:1, 1:N, M:N).
+  
+> **Focus:** Full relational database design for a student-instructor-project environment including weak entities, bridge tables, and business rule-driven relationships.
 
 ---
 
 ### `hw2/` — **Spatial SQL Queries**
-- `Q1.sql` to `Q5_V3.sql`: SQL queries covering spatial operations like containment, distance, and intersection.
+- `Q1.sql` to `Q5_V3.sql`: SQL scripts addressing spatial queries such as containment, distance, joins, and spatial intersections. Multiple versions of Q5 indicate optimization or refinement.
 
-> **Focus:** Writing and refining spatial queries using SQL on a spatial database system (Oracle Spatial or PostGIS).
-
----
-
-### `hw3/` — **GIS Data Processing and Visualization**
-- `point creation.py`: Python script to generate spatial points.
-- Shapefiles: (`.shp`, `.dbf`, `.shx`, `.prj`, `.cpg`) for both `spiro-line` and `spiro-point`.
-- `spiro.kml`, `starter_kml.kml`: Google Earth-compatible files for spatial visualization.
-- `.txt` files: Raw spatial data inputs (coordinates, locations).
-- `.PNG`: Screenshots of spatial outputs or visual query results.
-
-> **Focus:** Creating and visualizing spatial datasets using Python, shapefiles, and KML in GIS tools.
+> **Focus:** Practicing advanced SQL for spatial databases like PostGIS or Oracle Spatial. Includes geometry processing and spatial filtering.
 
 ---
 
-### `hw4/` — **Spatial/Multimedia Query Visualizations**
-- `Q1.PNG`, `Q2.PNG`, `Q3.PNG`: Screenshots of query outputs.
-- `README.txt`: Describes each query and its visualization.
+### `hw3/` — **GIS Data Processing & Visualization**
+- `point creation.py`: Python script to generate and manipulate spatial point data.
+- `spiro-line.*`, `spiro-point.*`: Complete shapefiles for line and point geometries (includes `.shp`, `.dbf`, `.shx`, `.prj`, `.cpg`).
+- `spiro.kml`, `starter_kml.kml`: KML files for viewing results in Google Earth.
+- `coordinates.txt`, `location.txt`: Raw spatial data.
+- `.PNG` files (`Q3.PNG`, `Q5.PNG`, etc.): Visual outputs or screenshots from spatial tasks.
 
-> **Focus:** Interpreting and presenting query results visually, likely using GIS or image analysis tools.
+> **Focus:** End-to-end workflow: raw coordinate data → shapefile/KML creation → visualization. Reinforces geospatial data formatting and transformation skills.
 
 ---
 
-### `hw5/` — **Multimedia Data Processing with CNN**
-- `Q1/weights.h5`: Trained model weights (Keras/TensorFlow).
-- `Q2/`, `Q3/`: Input images and classification result screenshots (`.PNG`, `.JPG`).
+### `hw4/` — **Regression Model Interpretation**
+- `Q1.PNG`, `Q2.PNG`, `Q3.PNG`: Visuals related to regression outputs.
+- `README.txt`: Describes interpretation of linear regression formulas for predicting variables like housing price (`MEDV`) and abalone age (`num_rings`).
 
-> **Focus:** Applying convolutional neural networks for object recognition on image datasets.
+> **Focus:** Analyzing linear regression results from multivariable models, likely produced by a tool like scikit-learn or statsmodels. Interprets coefficients and variable significance.
+
+---
+
+### `hw5/` — **Multimedia Recognition using CNNs**
+- `Q1/`: Contains `Q1.PNG` and `weights.h5` – a Keras-trained model.
+- `Q2/`: Contains test images (`what1.jpg`, `what2.jpg`) and `Q2.PNG` showing results.
+- `Q3/`: Additional image classification results using `corgi.jpg` and others.
+
+> **Focus:** Building and applying Convolutional Neural Networks (CNNs) for multimedia data classification. Demonstrates hands-on experience with model training, inference, and performance visualization.
 
 ---
 
 ## ✅ Technologies & Tools Used
 
-- **SQL** (PostGIS / Oracle Spatial)
-- **Python**: Data creation, image processing, CNN modeling
-- **Shapefiles & GIS tools** (QGIS, ArcGIS)
-- **KML**: Google Earth for spatial visualization
-- **TensorFlow / Keras**: Image classification with neural networks
+- **SQL**: PostGIS / Oracle Spatial for geometric queries.
+- **Python**: Data manipulation, GIS scripting, CNN training (e.g., with TensorFlow/Keras).
+- **GIS Software**: QGIS, ArcGIS for shapefile and KML visualization.
+- **Google Earth**: For viewing `.kml` outputs.
+- **Deep Learning**: Keras with saved `.h5` models for multimedia classification.
 
 ---
 
 ## 💡 Summary
 
-This repository demonstrates applied skills in spatial database querying, geospatial visualization, and multimedia data classification. It blends traditional database techniques with modern data science tools to solve complex IR and AI tasks.
+This repository captures real-world projects involving spatial databases, geographic data visualization, regression analysis, and neural networks. It combines database modeling and querying with modern data science workflows across structured and unstructured data formats.
+
+
+---
+
+
