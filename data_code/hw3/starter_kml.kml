@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Folder>
+<name>Library</name>
+<Placemark><name>Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283029,34.021626</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny Memorial Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284063,34.020306</coordinates></Point>
+</Placemark>
+<Placemark><name>Science Engineering Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288917,34.019401</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Waterworks</name>
+<Placemark><name>Waterwork1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282861,34.021392</coordinates></Point>
+</Placemark>
+<Placemark><name>Waterwork2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285248,34.020248</coordinates></Point>
+</Placemark>
+<Placemark><name>Waterwork3</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286122,34.020324</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Eateries</name>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282545,34.021350</coordinates></Point>
+</Placemark>
+<Placemark><name>Moreton Fig</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285797,34.019739</coordinates></Point>
+</Placemark>
+<Placemark><name>Burger Crush</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286322,34.020037</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Gates</name>
+<Placemark><name>Gate1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286303,34.018801</coordinates></Point>
+</Placemark>
+<Placemark><name>Gate2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288862,34.018795</coordinates></Point>
+</Placemark>
+<Placemark><name>Gate3</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283777,34.022672</coordinates></Point>
+</Placemark>
+</Folder>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.300076,34.028632</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle>
+</LineStyle>
+<PolyStyle><color>#a00000ff</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.288862,34.018795 -118.300076,34.028632 -118.283777,34.022672 -118.282545,34.02135 -118.284063,34.020306 -118.286303,34.018801 -118.288862,34.018795</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+<Placemark>
+<name>Neighbour1</name>
+<description>Neighbour1</description>
+<Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.300076,34.028632 -118.288917,34.019401</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Neighbour2</name>
+<description>Neighbour2</description>
+<Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.300076,34.028632 -118.288862,34.018795</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour3</name>
+<description>Neighbour3</description>
+<Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.300076,34.028632 -118.286322,34.020037</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour4</name>
+<description>Neighbour4</description>
+<Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.300076,34.028632 -118.286122,34.020324</coordinates>
+</LineString>
+</Placemark>
+
+</Document></kml>
+
