@@ -5,7 +5,7 @@ This repository contains five homework assignments from the CSCI585 course at US
 
 ---
 
-## 📁 Folder Overview
+##  Folder Overview
 
 ### `hw1/` — **Entity-Relationship Design (ERD)**
 - `HW1.png`: Visual representation of an Entity-Relationship Diagram.
@@ -50,7 +50,7 @@ This repository contains five homework assignments from the CSCI585 course at US
 
 ---
 
-## ✅ Technologies & Tools Used
+##  Technologies & Tools Used
 
 - **SQL**: PostGIS / Oracle Spatial for geometric queries.
 - **Python**: Data manipulation, GIS scripting, CNN training (e.g., with TensorFlow/Keras).
@@ -60,7 +60,7 @@ This repository contains five homework assignments from the CSCI585 course at US
 
 ---
 
-## 💡 Summary
+##  Summary
 
 This repository captures real-world projects involving spatial databases, geographic data visualization, regression analysis, and neural networks. It combines database modeling and querying with modern data science workflows across structured and unstructured data formats.
 
